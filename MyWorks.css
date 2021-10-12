@@ -1,0 +1,119 @@
+#maintitle {
+	position: absolute;
+	left: 45%;
+}
+
+#description {
+	position: absolute;
+	left: 40%;
+	top: 10%;
+}
+
+body {
+	height: 1700px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.Block {
+	width: 70%;
+	height: 38%;
+	border-radius: 30px;
+	background-color: #e0e0e0;
+	display: block;
+	position: relative;
+	left: 15%;
+	top: 10%;
+}
+
+#one {
+	display: flex;
+	justify-content: space-around;
+	height: 40%;
+	width: 90%;
+	position: relative;
+	top: 5%;
+	left: 2.5%;
+}
+
+#two {
+	display: flex;
+	justify-content: space-around;
+	height: 40%;
+	width: 90%;
+	position: relative;
+	top: 10%;
+	left: 2.5%;
+}
+
+#title1 {
+	position: relative;
+	left: 3%;
+	top: 3%;
+}
+
+.Work {
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+	width: 27%;
+	height: 80%;
+	-webkit-box-shadow: 10px 10px 30px 1px rgba(67, 67, 67, 0.15);
+    -moz-box-shadow: 10px 10px 30px 1px rgba(67, 67, 67, 0.15);
+    box-shadow: 10px 10px 30px 1px rgba(67, 67, 67, 0.15);
+}
+
+#lesson1 {
+	position: relative;
+	top: 7%;
+	left: 5%;
+	font-size: 22px;
+}
+
+.Line {
+	width: 95%;
+	height: 0%;
+	position: relative;
+	top: 30%;
+	left: 2.5%;
+	border: 1px solid black;
+}
+
+.View {
+	height: 15%;
+	width: 25%;
+	border: 2px solid blue;
+	border-radius: 10px;
+	font-size: 18px;
+	position: relative;
+	top: 60%;
+	left: 5%;
+}
+
+.Text {
+	color: #ababab;
+	font-size: 18px;
+	position: relative;
+	left: 60%;
+	top: 40%;
+}
+
+.Work:hover {
+	width: 30%;
+	height: 83%;
+	top: -2%;
+	-webkit-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Block:hover {
+	width: 73%;
+	height: 41%;
+	left: 13.5%;
+	background-color: #cccccc;
+}
